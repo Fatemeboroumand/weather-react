@@ -70,9 +70,12 @@ axios.get(url).then(forcast)
                     <li>Wind: {Math.round(wind)} km/h</li></ul></div>
                 </div>
             </div>
+           
         </div>
-
+        <div><a href="https://github.com/Fatemeboroumand/weather-react" target="_blank" >
+        Open-source code</a> , by Fateme Boroumand </div>
     </div>
+    
    </div>
         ) } else {
             return form
