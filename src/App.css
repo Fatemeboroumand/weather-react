@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  font-family: arial,sans-serif;
 }
 
 .App-logo {
@@ -35,4 +35,58 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.main {
+  border:  1px solid black;
+  max-width: 800px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+
+form {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  
+  }
+
+  
+
+ul {
+  list-style: none;
+}
+
+.city-name {
+  color: #878787;
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0;
+    line-height: 28px;
+}
+
+.day {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.current-weather {
+  color: #333;
+    float: left;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-left: 10px;
+}
+
+.current-img {
+  margin-top: 5px;
+  float: left;
+}
+
+.nothing {
+  color: white;
 }
