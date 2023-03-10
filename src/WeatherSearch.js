@@ -78,6 +78,9 @@ axios.get(url).then(forcast)
     
    </div>
         ) } else {
-            return form
+            return (<div>
+                <h1 class="welcome">Welcome to my Weather App</h1>
+                {form}
+                </div>)
         }
 }
