@@ -72,7 +72,7 @@ axios.get(url).then(forcast)
             </div>
            
         </div>
-        <div><a href="https://github.com/Fatemeboroumand/weather-react" target="_blank" >
+        <div><a href="https://github.com/Fatemeboroumand/weather-react" target="_blank" rel="noreferrer" >
         Open-source code</a> , by Fateme Boroumand </div>
     </div>
     
