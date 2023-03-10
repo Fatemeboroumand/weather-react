@@ -65,7 +65,7 @@ axios.get(url).then(forcast)
 
             <div class="container">
                 <div class="row">
-                    <div class="col"><span class="current-img"><img src={icon} alt={imgDescrip} /></span><span class="current-weather">{temperature}</span></div>
+                    <div class="col"><span class="current-img"><img src={icon} alt={imgDescrip} /></span><span class="current-weather">{Math.round(temperature)}</span></div>
                     <div class="col"><ul><li class="nothing">lll</li><li>Humidity: {humidity} %</li>
                     <li>Wind: {Math.round(wind)} km/h</li></ul></div>
                 </div>
